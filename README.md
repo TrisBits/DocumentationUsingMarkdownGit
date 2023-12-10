@@ -44,4 +44,28 @@ The following steps will be utilized to create a Git repository, in which the do
   - **Choose a license**: Setting a license is optional, though is highly recommended if you have the repository set to **Public**.  For example this documentation is set to [Creative Commons Zero v1.0 Universal](https://choosealicense.com/licenses/cc0-1.0/), which dedicates this documentation's use to the public domain.
 - Click on **Create repository**.
 
-    ![NewGitRepo](./images/NewGitRepo.png)
+    ![NewGitRepo](/images/NewGitRepo.png)
+
+## Clone Repository Locally
+
+- Start by ensuring you have Visual Studio Code open and are logged into your GitHub account in your browser.
+- In **GitHub** ensure you are on the main page for the repository you created in the previous section [Create Repository](#create-repository).
+- Click on the green **Code** button, then copy the **HTTPS** path.
+
+  ![GitHub-HttpsClone.png](/images/GitHub-HttpsClone.png)
+
+- In **Visual Studio Code** in the left tool bar, click on the source control icon.
+
+  ![VSCode Source Control Button](/images//VSCode-SourceControlButton.png)
+
+- In the Visual Studio Code Source Control panel, click on **Clone Repository**.
+
+  ![VSCode Clone Repository](/images/VSCode-CloneRepo.png)
+
+- In the top bar, it will now ask you to provide the URL source.  Paste in the **HTTPS** path you copied for your **GitHub** repository.
+
+  ![VSCode Clone Repository URL](/images/VSCode-CloneRepoURL.png)
+
+- You will now be prompted to select where you which to locally clone the repository. I suggest creating a folder **C:\Git**, though you may use any location of your choosing.
+
+  > **NOTE:** If you are using a private repository, Visual Studio code will prompt you to sign-in to your GitHub account so it may make the connection to your repository. It will save the credentials securily for future use.
