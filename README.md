@@ -47,7 +47,7 @@ The following steps will be utilized to create a Git repository, in which the do
   - **Choose a license**: Setting a license is optional, though is highly recommended if you have the repository set to **Public**.  For example this documentation is set to [Creative Commons Zero v1.0 Universal](https://choosealicense.com/licenses/cc0-1.0/), which dedicates this documentation's use to the public domain.
 - Click on **Create repository**.
 
-    ![NewGitRepo](/images/NewGitRepo.png)
+    ![NewGitRepo](/images/GitHub-NewGitRepo.png)
 
 ## Clone Repository Locally
 
