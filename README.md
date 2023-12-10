@@ -23,6 +23,9 @@
       ```
 
   - [Visual Studio Code](https://code.visualstudio.com/download)
+    - In Visual Studio Code, click on the **Extensions** button and search for **markdownlint by David Anson**, then click on **Install**.  This will provide us Markdown syntax warnings and errors, live while making a document.
+
+      ![VSCode Markdownlint extension](/images/VSCode-MarkdownlintExtension.png)
 
 ### Account
 
