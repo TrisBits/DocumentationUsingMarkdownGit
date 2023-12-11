@@ -10,6 +10,8 @@
 - [Clone Repository Locally](#clone-repository-locally)
 - [Writing the Document](#writing-the-document)
 - [Extras](#extras)
+  - [Editing Directly in GitHub](#editing-directly-in-github)
+  - [Mermaid Diagrams and Charts](#mermaid-diagrams-and-charts)
 
 ## Purpose
 
@@ -96,9 +98,13 @@ The **.md** file extension, is used for all **Markdown language** files.  The **
 
 ## Extras
 
+### Editing Directly in GitHub
+
 - All of the editing for this document was done using Visual Studio Code on desktop. However, if desired it is also possible to edit directly in GitHub. This is done by browsing to the file you wish to edit in GitHub, then clicking the Edit Icon button. You may also choose **github.dev** which is a web-based version of Visual Studio Code.  However, you can lose some functionality for extensions with the web-based version.
 
   ![GitHub Edit](/images/GitHub-Edit.png)
+
+### Mermaid Diagrams and Charts
 
 - Diagraming and charts through text are also possible, though the use of [Mermaid](https://mermaid.js.org/intro/). Adding the capability to preview them in Visual Studio Code, is done by adding the extension **Markdown Preview Mermaid Support by Matt Bierner**.
 
