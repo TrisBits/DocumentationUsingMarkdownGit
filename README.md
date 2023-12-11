@@ -2,11 +2,24 @@
 
 ## Table of Contents
 
+- [Purpose](#purpose)
 - [Requirements](#requirements)
   - [Software](#software)
   - [Account](#account)
 - [Create Repository](#create-repository)
 - [Clone Repository Locally](#clone-repository-locally)
+- [Writing the Document](#writing-the-document)
+- [Extras](#extras)
+
+## Purpose
+
+Utilizing [Markdown language](https://www.markdownguide.org/) and [Git](https://git-scm.com/) for documentation, provides the following benefits:
+
+- All changes to the document through its entire lifecycle are tracked.
+- Free and Open Source.
+- Documentation can be saved offsite and shared world-wide if wanted, though services like [GitHub](https://github.com/).
+- Markdown can be converted into a website if desired using static website generators such as [Hugo](https://gohugo.io/).
+- Provides practical learning path for modern development source control with Git.
 
 ## Requirements
 
@@ -72,3 +85,17 @@ The following steps will be utilized to create a Git repository, in which the do
 - You will now be prompted to select where you which to locally clone the repository. I suggest creating a folder **C:\Git**, though you may use any location of your choosing.
 
   > **NOTE:** If you are using a private repository, Visual Studio code will prompt you to sign-in to your GitHub account so it may make the connection to your repository. It will save the credentials securily for future use.
+
+## Writing the Document
+
+The main starting file for your documenation will be the **README.md** file, which already contains Markdown language from the GitHub new repository template. If desired you can examine it to begin learning the syntax, then when ready dive in and delete the contents of the file to start your own document.
+
+The **.md** file extension, is used for all **Markdown language** files.  The **README.md** file is special in that it will automatically be displayed as the main page in a GitHub repository.
+
+> **NOTE:** The basics of Markdown Syntax can be found at [https://www.markdownguide.org/basic-syntax/](https://www.markdownguide.org/basic-syntax/)
+
+## Extras
+
+- All of the editing for this document was done using Visual Studio Code on desktop. However, if desired it is also possible to edit directly in GitHub. This is done by browsing to the file you wish to edit in GitHub, then clicking the Edit Icon button. You may also choose **github.dev** which is a web-based version of Visual Studio Code.
+
+  ![GitHub Edit](/images/GitHub-Edit.png)
