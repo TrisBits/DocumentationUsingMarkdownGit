@@ -88,7 +88,9 @@ The following steps will be utilized to create a Git repository, in which the do
 
   > **NOTE:** If you are using a private repository, Visual Studio code will prompt you to sign-in to your GitHub account so it may make the connection to your repository. It will save the credentials securily for future use.
 
-## Writing the Document
+## Working on your Document
+
+### Main Page
 
 The main starting file for your documenation will be the **README.md** file, which already contains Markdown language from the GitHub new repository template. If desired you can examine it to begin learning the syntax, then when ready dive in and delete the contents of the file to start your own document.
 
@@ -106,7 +108,7 @@ The **.md** file extension, is used for all **Markdown language** files.  The **
 
 ### Mermaid Diagrams and Charts
 
-- Diagraming and charts through text are also possible, though the use of [Mermaid](https://mermaid.js.org/intro/). Adding the capability to preview them in Visual Studio Code, is done by adding the extension **Markdown Preview Mermaid Support by Matt Bierner**.
+- Diagraming and charts through text definitions is also possible, with the use of [Mermaid](https://mermaid.js.org/intro/). Adding the capability to preview them in Visual Studio Code, is done by adding the extension **Markdown Preview Mermaid Support by Matt Bierner**.
 
   For example, the following block of code generates the diagram displayed:
 
