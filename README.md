@@ -8,7 +8,7 @@
   - [Account](#account)
 - [Create Repository](#create-repository)
 - [Clone Repository Locally](#clone-repository-locally)
-- [Writing the Document](#writing-the-document)
+- [Working on your Document](#working-on-your-document)
 - [Extras](#extras)
   - [Editing Directly in GitHub](#editing-directly-in-github)
   - [Mermaid Diagrams and Charts](#mermaid-diagrams-and-charts)
@@ -97,6 +97,38 @@ The main starting file for your documenation will be the **README.md** file, whi
 The **.md** file extension, is used for all **Markdown language** files.  The **README.md** file is special in that it will automatically be displayed as the main page in a GitHub repository.
 
 > **NOTE:** The basics of Markdown Syntax can be found at [https://www.markdownguide.org/basic-syntax/](https://www.markdownguide.org/basic-syntax/)
+
+### Set Indentation Spacing
+
+
+### Help from Visual Studio Code
+
+As you write, Visual Studio Code can provide you assistance with the following features.
+
+#### Problems
+
+> **NOTE:** The Problems feature will utilize data from the Markdown Lint Extension.  It's installation was covered in the [Software](#software) section.
+
+- In the top menu select **View** and then click on **Problems**.
+
+  ![VSCode View Problems](/images/VSCode-ViewProblems.png)
+
+- Now in a Problems window at the bottom of Visual Studio Code, you will see live listings of any Markdown syntax issues. The issues will also provide a link to find more information on each item and how to correct it.
+
+  ![VSCode Problems](/images/VSCode-Problems.png)
+
+#### File Unsaved
+
+- Visual Studio Code will indicate on each tab, with a dot, any files which have been modified and not yet saved. Additionally, if there are syntax issues in your file it will alter the colour of the file name.
+
+  ![VSCode Tab Indicators](/images/VSCode-TabIndicators.png)
+
+#### Preview
+
+- **Right-click** the **Tab** for your file **README.md** and select **Open Preview**.  This will open a new tab, in which you will see the redered version of what your document will look like once committed to GitHub.
+
+### Committing your Changes
+
 
 ## Extras
 
