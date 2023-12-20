@@ -16,6 +16,7 @@
     - [File Unsaved](#file-unsaved)
     - [Preview](#preview)
 - [Commiting your Changes](#committing-your-changes)
+- [Additional Learning References](#additional-learning-references)
 - [Extras](#extras)
   - [Editing Directly in GitHub](#editing-directly-in-github)
   - [Mermaid Diagrams and Charts](#mermaid-diagrams-and-charts)
@@ -174,6 +175,15 @@ When ready to commit your changes, ideally every time you complete a logical sec
   > **NOTE:** The first time Visual Studio code may prompt you to sign-in to your GitHub account so it may make the connection to your repository. It will save the credentials securily for future use.
 
 - In your browser go to your GitHub account and open the repository for your document.  There you should now see the document you just synced.
+
+## Additional Learning References
+
+The following links provide further information:
+
+- [Markdown Syntax](https://www.markdownguide.org/basic-syntax/)
+- [Introduction to VS Code](https://code.visualstudio.com/docs/getstarted/introvideos)
+- [Using Git Source Control in VS Code](https://code.visualstudio.com/docs/sourcecontrol/overview)
+- [GitHub Documentation](https://docs.github.com/en/get-started)
 
 ## Extras
 
