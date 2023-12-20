@@ -134,45 +134,60 @@ As you write, Visual Studio Code can provide you assistance with the following f
 
 #### File Unsaved
 
-- Visual Studio Code will indicate on each tab, with a dot, any files which have been modified and not yet saved. Additionally, if there are syntax issues in your file it will alter the colour of the file name.
+Visual Studio Code will indicate on each tab, with a dot, any files which have been modified and not yet saved. Additionally, if there are syntax issues in your file it will alter the colour of the file name.
 
   ![VSCode Tab Indicators](/images/VSCode-TabIndicators.png)
 
 #### Preview
 
+In order to view a live preview of your changes as you work, follow the following step.
+
 - **Right-click** the **Tab** for your file **README.md** and select **Open Preview**.  This will open a new tab, in which you will see the redered version of what your document will look like once committed to GitHub.
 
 ### Committing your Changes
+
+As you make changes and save your file, you will notice an indicator appears on the source control icon.
+
+  ![VSCode Changes Indicator](/images/VSCode-ChangesIndicator.png)
+
+When ready to commit your changes, ideally every time you complete a logical section, you would perform the following steps.
+
+- Left-Click on the **Source Control Icon**.
+- At the top of the **Source Control Panel**, enter a **Message** briefly describing what the change contains.
+- Left-Click on the **Commit** button.
+
+> **NOTE:** Your first time Visual Studio Code may ask you if you would like to Auto Stage all your changes, select **Yes**.
+
 
 
 ## Extras
 
 ### Editing Directly in GitHub
 
-- All of the editing for this document was done using Visual Studio Code on desktop. However, if desired it is also possible to edit directly in GitHub. This is done by browsing to the file you wish to edit in GitHub, then clicking the Edit Icon button. You may also choose **github.dev** which is a web-based version of Visual Studio Code.  However, you can lose some functionality for extensions with the web-based version.
+All of the editing for this document was done using Visual Studio Code on desktop. However, if desired it is also possible to edit directly in GitHub. This is done by browsing to the file you wish to edit in GitHub, then clicking the Edit Icon button. You may also choose **github.dev** which is a web-based version of Visual Studio Code.  However, you can lose some functionality for extensions with the web-based version.
 
   ![GitHub Edit](/images/GitHub-Edit.png)
 
 ### Mermaid Diagrams and Charts
 
-- Diagraming and charts through text definitions is also possible, with the use of [Mermaid](https://mermaid.js.org/intro/). Adding the capability to preview them in Visual Studio Code, is done by adding the extension **Markdown Preview Mermaid Support by Matt Bierner**.
+Diagraming and charts through text definitions is also possible, with the use of [Mermaid](https://mermaid.js.org/intro/). Adding the capability to preview them in Visual Studio Code, is done by adding the extension **Markdown Preview Mermaid Support by Matt Bierner**.
 
-  For example, the following block of code generates the diagram displayed:
+For example, the following block of code generates the diagram displayed:
 
-    ````markdown
-    ```mermaid
-    graph TD;
-        A-->B;
-        A-->C;
-        B-->D;
-        C-->D;
-    ```
-    ````
+  ````markdown
+  ```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+  ```
+  ````
 
-    ```mermaid
-    graph TD;
-        A-->B;
-        A-->C;
-        B-->D;
-        C-->D;
-    ```
+  ```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+  ```
