@@ -9,6 +9,13 @@
 - [Create Repository](#create-repository)
 - [Clone Repository Locally](#clone-repository-locally)
 - [Working on your Document](#working-on-your-document)
+  - [Main Page](#main-page)
+  - [Set Tab Spacing](#set-tab-spacing)
+  - [Help from Visual Studio Code](#help-from-visual-studio-code)
+    - [Problems](#problems)
+    - [File Unsaved](#file-unsaved)
+    - [Preview](#preview)
+- [Commiting your Changes](#committing-your-changes)
 - [Extras](#extras)
   - [Editing Directly in GitHub](#editing-directly-in-github)
   - [Mermaid Diagrams and Charts](#mermaid-diagrams-and-charts)
@@ -98,7 +105,7 @@ The **.md** file extension, is used for all **Markdown language** files.  The **
 
 > **NOTE:** The basics of Markdown Syntax can be found at [https://www.markdownguide.org/basic-syntax/](https://www.markdownguide.org/basic-syntax/)
 
-### Set Indentation Spacing
+### Set Tab Spacing
 
 Markdown language utilizes two spaces when indenting.  To help facilitate this, use the following steps to set your tab spacing.
 
@@ -167,8 +174,6 @@ When ready to commit your changes, ideally every time you complete a logical sec
   > **NOTE:** The first time Visual Studio code may prompt you to sign-in to your GitHub account so it may make the connection to your repository. It will save the credentials securily for future use.
 
 - In your browser go to your GitHub account and open the repository for your document.  There you should now see the document you just synced.
-
-
 
 ## Extras
 
