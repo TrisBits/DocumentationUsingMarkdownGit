@@ -158,6 +158,16 @@ When ready to commit your changes, ideally every time you complete a logical sec
 
 > **NOTE:** Your first time Visual Studio Code may ask you if you would like to Auto Stage all your changes, select **Yes**.
 
+- The button will now change to **Sync Changes**.
+
+  ![VSCode Sync Changes](/images/VSCode-SyncChanges.png)
+
+- Left-Click on **Sync Changes**, to upload all your current changes to your GitHub account.
+
+  > **NOTE:** The first time Visual Studio code may prompt you to sign-in to your GitHub account so it may make the connection to your repository. It will save the credentials securily for future use.
+
+- In your browser go to your GitHub account and open the repository for your document.  There you should now see the document you just synced.
+
 
 
 ## Extras
