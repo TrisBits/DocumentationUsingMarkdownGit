@@ -100,6 +100,21 @@ The **.md** file extension, is used for all **Markdown language** files.  The **
 
 ### Set Indentation Spacing
 
+Markdown language utilizes two spaces when indenting.  To help facilitate this, use the following steps to set your tab spacing.
+
+- In the bottom left panel, you will find a section called **Spaces**.
+
+  ![VSCode Spaces Panel](/images/VSCode-SpacesSetting01.png)
+
+- Left-Click on **Spaces**, doing so will present a **Select Action** menu at the top of Visual Studio Code.  For this option, select **Indent Using Spaces**.
+
+  ![VSCode Spaces Type Selector](/images/VSCode-SpacesSetting02.png)
+
+- A new selector menu will now appear for **Select Tab Size for Current File**, select the value of **2**.
+
+  ![VSCode Tab Size Selector](/images/VSCode-SpacesSetting03.png)
+
+- In the bottom left panel, you should now see **Spaces: 2**.
 
 ### Help from Visual Studio Code
 
